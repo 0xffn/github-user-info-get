@@ -1,4 +1,9 @@
+# https://github.com/0xffn/github-user-info-get
+# By 0xffn
 import requests
+import os
+
+os.system('clear')
 
 user= input('Enter GitHub UserName : ')
 api_url = f"https://api.github.com/users/{user}"
